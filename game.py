@@ -3,13 +3,17 @@
 # Made by Sicilat #
 ###################
 
-import os, sys
+import os, sys, cmd, textwrap, time, random
+
+class Player():
+	def __init__(self):
+		self.mana = 0
 
 def clear():
 	os.system('clear||cls')
 
 def setup_game():
-	print('setup')
+	
 
 def show_help_menu():
 	clear()
