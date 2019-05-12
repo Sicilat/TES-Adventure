@@ -3,17 +3,22 @@
 # Made by Sicilat #
 ###################
 
-import os, sys, cmd, textwrap, time, random
+import os, sys, cmd, textwrap, time, random, pickle
 
 class Player():
-	def __init__(self):
-		self.mana = 0
+	def __init__(self, p_class):
+		self.mp = 0
+		self.hp = 0
+		self.sp = 0
+		self.location = 'a1'
+		self.status = []
+
 
 def clear():
 	os.system('clear||cls')
 
 def setup_game():
-	
+	return
 
 def show_help_menu():
 	clear()
